@@ -1,5 +1,7 @@
 # SERA — Atelier of slow cloth
 
+![SERA — the hero of a garment-atelier landing page](docs/screenshots/hero.webp)
+
 A single-page storefront for a fictional garment atelier, built on the
 [ThreeUI Community](https://github.com/MengTo/threeui) library
 (`@designcodeio/threeui`) and a hand-written three.js scene.
@@ -10,6 +12,27 @@ behind the document, a preloader, a floating nav, a full-viewport hero with
 chapter chips and a live preview window, four scroll chapters, and a colophon
 footer. Every word is English, and every piece of content is about selling
 garments.
+
+## Preview
+
+All images below are real captures of the running app.
+
+| Chapter I — the cutting room | Chapter II — the rail |
+| :--- | :--- |
+| ![The cutting room](docs/screenshots/cutting-room.webp) | ![The rail](docs/screenshots/the-rail.webp) |
+
+| The loom band (ThreeUI `WovenCloth`) | The material study (ThreeUI `ClothStudy`) |
+| :--- | :--- |
+| ![The loom band](docs/screenshots/loom-band.webp) | ![The material study](docs/screenshots/material-study.webp) |
+
+| Chapter III — the collection | Chapter IV — the fitting room |
+| :--- | :--- |
+| ![The collection](docs/screenshots/collection.webp) | ![The fitting room](docs/screenshots/fitting-room.webp) |
+
+<p align="center">
+  <img src="docs/screenshots/mobile-hero.webp" width="260" alt="The hero on a phone">
+  <img src="docs/screenshots/mobile-rail.webp" width="260" alt="The product cards on a phone">
+</p>
 
 ## Stack
 
@@ -81,7 +104,7 @@ raises a toast. There is no checkout endpoint behind the button.
 ## Notes
 
 - Every garment image is generated at runtime; the project ships no binary
-  assets beyond the library's own.
+  assets beyond the library's own and the screenshots in `docs/screenshots/`.
 - `prefers-reduced-motion` disables the reveal transitions, the hero cue and
   the camera drift.
 - The page is responsive down to 390px: the nav collapses to a sheet, the
