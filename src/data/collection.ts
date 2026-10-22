@@ -21,7 +21,7 @@ export type Product = {
   swatch: string;
 };
 
-export const CURRENCY = "$";
+export const CURRENCY = "₱";
 
 export const PRODUCTS: Product[] = [
   {
